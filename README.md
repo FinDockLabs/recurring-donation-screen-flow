@@ -1,6 +1,6 @@
 # Screen flow: Create NPSP Recurring Donation with FinDock BACS
 
-A simple screen flow for use from a Contact record to create a Recurring Donation in NPSP, including the creation of a FinDock Payment Profile for storing the account details for BACS. The flow also harneses FinDock's bank account checker to validate the account number and sort code before creation.
+A simple screen flow for use from a Contact record to create a Recurring Donation in NPSP, including the creation of a FinDock Payment Profile for storing the account details for BACS. The flow also harnesses FinDock's bank account checker to validate the account number and sort code before creation.
 
 ## Installation
 
