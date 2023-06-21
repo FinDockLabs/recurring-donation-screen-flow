@@ -1,3 +1,8 @@
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 # Screen flow: Create NPSP Recurring Donation with FinDock BACS
 
 A simple screen flow for use from a Contact record to create a Recurring Donation in NPSP, including the creation of a FinDock Payment Profile for storing the account details for BACS. The flow also harnesses FinDock's bank account checker to validate the account number and sort code before creation.
@@ -5,6 +10,7 @@ A simple screen flow for use from a Contact record to create a Recurring Donatio
 ## Installation
 
 Simply install and activate the flow (Screen Flow - BACS Recurring Donation). You can then include it on your Contact page layout or trigger it an Action on the Contact object. (When adding to a Page Layout, make sure to tick the checkbox to Pass the record ID into the variable recordId.)
+You can use `sfdx` to deploy the flow to your Salesforce environment or press the "Deploy to Salesforce" button at the top of this README.
 
 ## Notes
 
