@@ -1,4 +1,4 @@
-<a href="https://githubsfdeploy.herokuapp.com">
+<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=https://github.com/FinDockLabs/recurring-donation-screen-flow&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
@@ -10,7 +10,10 @@ A simple screen flow for use from a Contact record to create a Recurring Donatio
 ## Installation
 
 Simply install and activate the flow (Screen Flow - BACS Recurring Donation). You can then include it on your Contact page layout or trigger it an Action on the Contact object. (When adding to a Page Layout, make sure to tick the checkbox to Pass the record ID into the variable recordId.)
-You can use `sfdx` to deploy the flow to your Salesforce environment or press the "Deploy to Salesforce" button at the top of this README.
+To deploy the flow to your Salesforce environment, you can:
+- use `sfdx`.
+- press the "Deploy to Salesforce" button at the top of this README and then press "Login to Salesforce" in the top right of your screen.
+- any other deployment method you prefer.
 
 ## Notes
 
